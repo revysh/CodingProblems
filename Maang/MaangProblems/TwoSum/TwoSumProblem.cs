@@ -8,7 +8,7 @@ namespace MaangProblems.TwoSum
 {
     public class TwoSumProblem
     {
-        public int[] TwoSum(int[] nums, int target)
+        public int[] Solve(int[] nums, int target)
         {
             var dict = new Dictionary<int, int>();
             for (int i = 0; i < nums.Length; i++)

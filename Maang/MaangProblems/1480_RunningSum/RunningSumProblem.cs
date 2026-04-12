@@ -2,7 +2,7 @@
 {
     public class RunningSumProblem
     {
-        public int[] RunningSum(int[] nums)
+        public int[] Solve(int[] nums)
         {
             int[] result = new int[nums.Length];
             result[0] = nums[0];

@@ -8,7 +8,7 @@ namespace MaangProblems.Tests._1672_MaximumWealth
         public void MaximumWealth_Test(int[][] accounts, int expected)
         {
             var solver = new MaximumWealthProblem();
-            var result = solver.MaximumWealth(accounts);
+            var result = solver.Solve(accounts);
             Assert.That(result, Is.EqualTo(expected));
         }
 

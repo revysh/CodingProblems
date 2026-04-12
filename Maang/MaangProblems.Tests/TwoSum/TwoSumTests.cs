@@ -10,7 +10,7 @@ namespace MaangProblems.Tests.TwoSum
         public void TwoSum_Test(int[] nums, int target, int[] expected)
         {
             var solver = new TwoSumProblem();
-            var result = solver.TwoSum(nums, target);
+            var result = solver.Solve(nums, target);
             Assert.That(result, Is.EqualTo(expected));
         }
     }

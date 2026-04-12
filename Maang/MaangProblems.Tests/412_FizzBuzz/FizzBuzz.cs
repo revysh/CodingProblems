@@ -1,10 +1,4 @@
-﻿using MaangProblems._1672_MaximumWealth;
-using MaangProblems._412_FizzBuzz;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MaangProblems._412_FizzBuzz;
 
 namespace MaangProblems.Tests._412_FizzBuzz
 {
@@ -14,7 +8,7 @@ namespace MaangProblems.Tests._412_FizzBuzz
         public void FizzBuzz_Test(int n, string[] expected)
         {
             var solver = new FizzBuzzProblem();
-            var result = solver.FizzBuzz(n);
+            var result = solver.Solve(n);
             Assert.That(result, Is.EqualTo(expected));
         }
 

@@ -8,7 +8,7 @@ namespace MaangProblems._412_FizzBuzz
 {
     public class FizzBuzzProblem
     {
-        public string[] FizzBuzz(int n)
+        public string[] Solve(int n)
         {
             string[] result = new string[n];
             for (int i = 1; i < n+1; i++)

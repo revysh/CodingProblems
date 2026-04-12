@@ -10,7 +10,7 @@ namespace MaangProblems.Tests._1480_RunningSum
         public void RunningSum_Test(int[] nums, int[] expected)
         {
             var solver = new RunningSumProblem();
-            var result = solver.RunningSum(nums);
+            var result = solver.Solve(nums);
             Assert.That(result, Is.EqualTo(expected));
         }
     }

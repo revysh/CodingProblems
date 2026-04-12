@@ -1,0 +1,46 @@
+﻿<CodeSnippet Format="1.0.0">
+  <Header>
+    <Title>Maang Test</Title>
+    <Shortcut>mpt</Shortcut>
+    <Description>MAANG Test Template</Description>
+    <Author>Team</Author>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>ProblemName</ID>
+        <Default>TwoSum</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp">
+      <![CDATA[
+using NUnit.Framework;
+using MaangProblems.$ProblemName$;
+
+namespace MaangProblems.Tests.$ProblemName$
+{
+    public class $ProblemName$Tests
+    {
+        [TestCaseSource(nameof(Data))]
+        public void $ProblemName$_Test(int[] nums, int target, int[] expected)
+        {
+            var solver = new $ProblemName$Problem();
+            var result = solver.$ProblemName$(nums, target);
+
+            Assert.That(result, Is.EqualTo(expected));
+        }
+
+        private static IEnumerable<TestCaseData> Data()
+        {
+            yield return new TestCaseData(
+                new[] { 1, 2 },
+                3,
+                new[] { 0, 1 })
+                .SetName("$ProblemName$_Test 1");
+        }
+    }
+}
+]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

@@ -8,7 +8,7 @@ namespace MaangProblems._1672_MaximumWealth
 {
     public class MaximumWealthProblem
     {
-        public int MaximumWealth(int[][] accounts)
+        public int Solve(int[][] accounts)
         {
             int max = 0;
             for (int i = 0; i < accounts.Length; i++)

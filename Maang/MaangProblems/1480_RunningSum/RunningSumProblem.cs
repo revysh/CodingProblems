@@ -1,4 +1,4 @@
-﻿namespace MaangProblems.RunningSum
+﻿namespace MaangProblems._1480_RunningSum
 {
     public class RunningSumProblem
     {

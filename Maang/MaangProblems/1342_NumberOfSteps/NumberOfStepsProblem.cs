@@ -5,7 +5,16 @@ namespace MaangProblems.NumberOfSteps
     {
         public int Solve(int num)
         {
-            return -1;
+            int stepCount = 0;
+            while (num != 0)
+            {
+                if (num % 2 == 0)
+                    num /= 2;
+                else
+                    num--;
+                stepCount++;
+            }
+            return stepCount;
         }
 
     }

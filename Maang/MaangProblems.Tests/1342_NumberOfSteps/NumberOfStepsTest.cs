@@ -6,7 +6,8 @@ namespace MaangProblems.Tests.NumberOfSteps
     {
         [TestCase(14, 6, TestName = "1342_leetCode_NumberOfSteps_Test 1")]
         [TestCase(8, 4, TestName = "1342_leetCode_NumberOfSteps_Test 2")]
-        [TestCase(123, 12, TestName = "1342_leetCode_NumberOfSteps_Test 3")]
+        [TestCase(30, 8, TestName = "1342_leetCode_NumberOfSteps_Test 3")]
+        [TestCase(123, 12, TestName = "1342_leetCode_NumberOfSteps_Test 4")]
         public void NumberOfSteps_Test(int num, int expected)
         {
             var solver = new NumberOfStepsProblem();

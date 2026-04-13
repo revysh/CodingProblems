@@ -4,7 +4,7 @@ namespace MaangProblems.Tests._412_FizzBuzz
 {
     public class FizzBuzz
     {
-        [TestCaseSource(nameof(FizzBuzz_Data))]
+        [TestCaseSource(nameof(Data))]
         public void FizzBuzz_Test(int n, string[] expected)
         {
             var solver = new FizzBuzzProblem();
@@ -12,7 +12,7 @@ namespace MaangProblems.Tests._412_FizzBuzz
             Assert.That(result, Is.EqualTo(expected));
         }
 
-        static IEnumerable<TestCaseData> FizzBuzz_Data()
+        static IEnumerable<TestCaseData> Data()
         {
             yield return new TestCaseData(
                 3,

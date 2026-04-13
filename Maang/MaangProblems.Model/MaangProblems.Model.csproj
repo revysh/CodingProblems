@@ -6,8 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\MaangProblems.Model\MaangProblems.Model.csproj" />
-  </ItemGroup>
-
 </Project>

@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MaangProblems.Model\MaangProblems.Model.csproj" />
     <ProjectReference Include="..\MaangProblems\MaangProblems.csproj" />
   </ItemGroup>
 

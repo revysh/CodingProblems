@@ -4,7 +4,7 @@ namespace MaangProblems.Tests._1672_MaximumWealth
 {
     public class MaximumWealth
     {
-        [TestCaseSource(nameof(MaximumWealth_Data))]
+        [TestCaseSource(nameof(Data))]
         public void MaximumWealth_Test(int[][] accounts, int expected)
         {
             var solver = new MaximumWealthProblem();
@@ -12,7 +12,7 @@ namespace MaangProblems.Tests._1672_MaximumWealth
             Assert.That(result, Is.EqualTo(expected));
         }
 
-        static IEnumerable<TestCaseData> MaximumWealth_Data()
+        static IEnumerable<TestCaseData> Data()
         {
             yield return new TestCaseData(
                 new int[][] { new[] { 1, 2, 3 }, new[] { 3, 2, 1 } },

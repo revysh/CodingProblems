@@ -10,4 +10,8 @@
     <ProjectReference Include="..\MaangProblems.Model\MaangProblems.Model.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="TrialProblems\" />
+  </ItemGroup>
+
 </Project>

@@ -1,6 +1,6 @@
 ﻿using MaangProblems.TwoSum;
 
-namespace MaangProblems.Tests.TwoSum
+namespace MaangProblems.Tests.LeetCodeProblems.TwoSum
 {
     public class TwoSumTests
     {

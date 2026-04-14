@@ -1,4 +1,4 @@
-﻿using MaangProblems.TwoSum;
+﻿using MaangProblems.LeetCodeProblems.TwoSum;
 
 namespace MaangProblems.Tests.LeetCodeProblems.TwoSum
 {

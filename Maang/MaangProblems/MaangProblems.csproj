@@ -11,10 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="TrialProblems\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Update="0000_CodeGen\GenerateProblem.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>GenerateProblem.txt</LastGenOutput>

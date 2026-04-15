@@ -15,8 +15,8 @@
     // Navigate to solution root (adjust if needed)
     string solutionRoot = Directory.GetParent(baseDir).Parent.FullName;
 
-    string solutionPath = Path.Combine(solutionRoot, solutionProject, problemName);
-    string testPath = Path.Combine(solutionRoot, testProject, problemName);
+    string solutionPath = Path.Combine(solutionRoot, solutionProject, "LeetCodeProblems", problemNumber + "_" + problemName);
+    string testPath = Path.Combine(solutionRoot, testProject, "LeetCodeProblems", problemNumber + "_" + problemName);
 
     Directory.CreateDirectory(solutionPath);
     Directory.CreateDirectory(testPath);

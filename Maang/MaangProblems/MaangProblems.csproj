@@ -14,4 +14,20 @@
     <Folder Include="TrialProblems\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="0000_CodeGen\GenerateProblem.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>GenerateProblem.txt</LastGenOutput>
+    </None>
+    <None Update="0000_CodeGen\GenerateProblem.txt">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>GenerateProblem.tt</DependentUpon>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
 </Project>

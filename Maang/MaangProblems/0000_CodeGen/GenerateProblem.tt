@@ -31,17 +31,9 @@
 "{\n" +
 "    public class " + problemName + "Problem\n" +
 "    {\n" +
-"        public int[] " + problemName + "(int[] nums, int target)\n" +
+"        public int " + problemName + "(int nums)\n" +
 "        {\n" +
-"            var dict = new Dictionary<int, int>();\n\n" +
-"            for (int i = 0; i < nums.Length; i++)\n" +
-"            {\n" +
-"                int complement = target - nums[i];\n\n" +
-"                if (dict.ContainsKey(complement))\n" +
-"                    return new int[] { dict[complement], i };\n\n" +
-"                dict[nums[i]] = i;\n" +
-"            }\n\n" +
-"            return null!;\n" +
+"            return 1;\n" +
 "        }\n" +
 "    }\n" +
 "}");
@@ -56,11 +48,11 @@
 "    public class " + problemName + "Tests\n" +
 "    {\n" +
 "        [TestCaseSource(nameof(Data))]\n" +
-"        [TestCase(new[] { 1, 0 }, 1, TestName = " + problemName + "1)]\n" +
-"        public void " + problemName + "_Test(int[] nums, int target, int[] expected)\n" +
+"        [TestCase(1, 1, TestName = \"" + problemName + "1\")]\n" +
+"        public void " + problemName + "_Test(int nums, int expected)\n" +
 "        {\n" +
 "            var solver = new " + problemName + "Problem();\n" +
-"            var result = solver." + problemName + "(nums, target);\n\n" +
+"            var result = solver." + problemName + "(nums);\n\n" +
 "            Assert.That(result, Is.EqualTo(expected));\n" +
 "        }\n\n" +
 "        private static IEnumerable<TestCaseData> Data()\n" +

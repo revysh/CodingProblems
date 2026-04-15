@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Net.Http.Headers;
 
-namespace MaangProblems.RansomeNote
+namespace MaangProblems._0383_RansomeNote
 {
     public class RansomeNoteProblem_Optimal
     {

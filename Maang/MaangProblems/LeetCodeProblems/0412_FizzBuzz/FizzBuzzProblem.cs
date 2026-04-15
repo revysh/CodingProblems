@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MaangProblems._412_FizzBuzz
+namespace MaangProblems._0412_FizzBuzz
 {
     public class FizzBuzzProblem
     {

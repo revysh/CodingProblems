@@ -1,6 +1,6 @@
-﻿using MaangProblems._412_FizzBuzz;
+﻿using MaangProblems._0412_FizzBuzz;
 
-namespace MaangProblems.Tests._412_FizzBuzz
+namespace MaangProblems.Tests._0412_FizzBuzz
 {
     public class FizzBuzz
     {

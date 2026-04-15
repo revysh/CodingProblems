@@ -1,4 +1,4 @@
-﻿using MaangProblems.NumberOfSteps;
+﻿using MaangProblems._1342_NumberOfSteps;
 
 namespace MaangProblems.Tests.NumberOfSteps
 {

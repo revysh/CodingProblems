@@ -1,7 +1,7 @@
 ﻿
 using NUnit.Framework;
-using MaangProblems.MiddleOfLinkedList;
 using MaangProblems.Model;
+using MaangProblems._0876_MiddleLinkedList;
 
 namespace MaangProblems.Tests.MiddleOfLinkedList
 {

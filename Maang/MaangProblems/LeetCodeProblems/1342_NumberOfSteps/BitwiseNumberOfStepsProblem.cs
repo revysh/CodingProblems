@@ -1,5 +1,5 @@
 ﻿
-namespace MaangProblems.NumberOfSteps
+namespace MaangProblems._1342_NumberOfSteps
 {
     public class BitwiseNumberOfStepsProblem
     {

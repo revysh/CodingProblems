@@ -1,5 +1,5 @@
 ﻿
-namespace MaangProblems._485_MaxConsecutiveOnes
+namespace MaangProblems._0485_MaxConsecutiveOnes
 {
     public class MaxConsecutiveOnesProblem
     {

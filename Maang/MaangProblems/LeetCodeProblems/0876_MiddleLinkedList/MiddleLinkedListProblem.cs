@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Net.Http.Headers;
 
-namespace MaangProblems.MiddleOfLinkedList
+namespace MaangProblems._0876_MiddleLinkedList
 {
     public class MiddleOfLinkedListProblem
     {

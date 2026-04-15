@@ -1,6 +1,6 @@
 ﻿
 using NUnit.Framework;
-using MaangProblems._485_MaxConsecutiveOnes;
+using MaangProblems._0485_MaxConsecutiveOnes;
 
 namespace MaangProblems.Tests._485_MaxConsecutiveOnes
 {

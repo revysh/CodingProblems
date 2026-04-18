@@ -3,8 +3,8 @@
 <#@ import namespace="System.IO" #>
 
 <#
-    string problemName = "NumbersWithEvenNumberDigits";
-    string problemNumber = "1295";
+    string problemName = "ValidPalindrome";
+    string problemNumber = "0125";
 
     string solutionProject = "MaangProblems";
     string testProject = "MaangProblems.Tests";

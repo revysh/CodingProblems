@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MaangProblems.LeetCodeProblems.TwoSum
+namespace MaangProblems._0001_TwoSumProblem
 {
     public class TwoSumProblem
     {

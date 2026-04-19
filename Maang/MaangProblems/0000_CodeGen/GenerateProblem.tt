@@ -3,8 +3,8 @@
 <#@ import namespace="System.IO" #>
 
 <#
-    string problemName = "ValidPalindromeII";
-    string problemNumber = "0680";
+    string problemName = "TwoSumSorted";
+    string problemNumber = "0167";
 
     string solutionProject = "MaangProblems";
     string testProject = "MaangProblems.Tests";

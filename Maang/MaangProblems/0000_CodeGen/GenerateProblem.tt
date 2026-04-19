@@ -3,8 +3,8 @@
 <#@ import namespace="System.IO" #>
 
 <#
-    string problemName = "TwoSumSorted";
-    string problemNumber = "0167";
+    string problemName = "EmployeeHoursTarget";
+    string problemNumber = "2798";
 
     string solutionProject = "MaangProblems";
     string testProject = "MaangProblems.Tests";

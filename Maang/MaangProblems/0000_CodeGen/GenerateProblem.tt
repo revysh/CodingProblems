@@ -3,8 +3,8 @@
 <#@ import namespace="System.IO" #>
 
 <#
-    string problemName = "OddNumbersInInterval";
-    string problemNumber = "1523";
+    string problemName = "FinalValueAfterOperations";
+    string problemNumber = "2011";
 
     string solutionProject = "MaangProblems";
     string testProject = "MaangProblems.Tests";

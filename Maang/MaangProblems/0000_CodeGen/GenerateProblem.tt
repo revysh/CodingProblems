@@ -3,8 +3,8 @@
 <#@ import namespace="System.IO" #>
 
 <#
-    string problemName = "FinalValueAfterOperations";
-    string problemNumber = "2011";
+    string problemName = "RemoveDuplicatesSortedArray";
+    string problemNumber = "0026";
 
     string solutionProject = "MaangProblems";
     string testProject = "MaangProblems.Tests";

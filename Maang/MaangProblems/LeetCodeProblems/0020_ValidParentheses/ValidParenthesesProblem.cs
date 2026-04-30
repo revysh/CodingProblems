@@ -8,15 +8,13 @@ namespace MaangProblems._0020_ValidParentheses
         public bool IsValid(string s)
         {
             Stack<char> stack = new Stack<char>();
-            if (s.Length % 2 != 0) return false;
-            for (int i = 0; i < s.Length; i++)
+            foreach (char c in s)
             {
-                char c = s[i];
                 if (c == '(' || c == '{' || c == '[')
                 {
                     stack.Push(c);
                 }
-                else if (stack.Count > 0)
+                else
                 {
                     if (stack.Count == 0)
                         return false;
@@ -24,6 +22,7 @@ namespace MaangProblems._0020_ValidParentheses
                     if (c == ')' && top != '(') return false;
                     if (c == '}' && top != '{') return false;
                     if (c == ']' && top != '[') return false;
+
                 }
             }
             return stack.Count == 0;
